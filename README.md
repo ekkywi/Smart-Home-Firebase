@@ -99,9 +99,6 @@ IoT-Worker/
 │   └── index.js
 └── serviceAccountKey.json
 ```
-
----
-
 ### Cara menjalankan
 ```
 npm install
