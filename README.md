@@ -102,7 +102,6 @@ IoT-Worker/
 
 ---
 
-
 ### Cara menjalankan
 ```
 npm install
@@ -112,6 +111,8 @@ Worker akan:
 - Membaca perintah dari Android
 - Mensimulasikan perubahan suhu AC & speed Fan setiap 5 detik
 - Mengupdate Firebase → realtime muncul di aplikasi
+
+---
 
 ## 🚀 Cara Menjalankan
 ### Android
@@ -124,10 +125,14 @@ cd IoT-Worker
 npm start
 ```
 
+---
+
 ## 🧠 Clean Architecture Flow
 ```
 UI → ViewModel → Repository → FirebaseService → Firebase RealtimeDB
 ```
+
+---
 
 ## 🛠 Planned Features
 - Edit Device Name (Popup Dialog)
