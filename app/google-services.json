@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "939379156662",
+    "firebase_url": "https://smarthomeapp-4bfbb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smarthomeapp-4bfbb",
+    "storage_bucket": "smarthomeapp-4bfbb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939379156662:android:8b3327193beda3cfcae817",
+        "android_client_info": {
+          "package_name": "com.ekky.smarthome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrJ9GthKOxdbnOBGmt-WYwMXhgDNty6Rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
