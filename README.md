@@ -35,7 +35,7 @@ Aplikasi ini tidak memerlukan hardware fisik karena menggunakan **Firebase Realt
 ---
 
 ## 📂 Project Structure (Android)
-
+```
 app/
 ├── data/
 │ ├── firebase/
@@ -46,7 +46,6 @@ app/
 │ ├── home/
 │ └── roomdetail/
 └── MainActivity.kt
-
 ---
 
 ## 🔥 Firebase Setup
