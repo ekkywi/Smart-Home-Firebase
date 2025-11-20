@@ -84,17 +84,53 @@ app/
     }
   }
 }
+```
 
 ---
 
-🤖 IoT Worker (Simulasi Hardware)
-Struktur Worker
+## 🤖 IoT Worker (Simulasi Hardware)
+
+### Struktur Worker
+```
 IoT-Worker/
 ├── src/
 │   ├── firebase.js
 │   ├── worker.js
 │   └── index.js
 └── serviceAccountKey.json
+```
 
 ---
 
+
+### Cara menjalankan
+```
+npm install
+npm start
+```
+Worker akan:
+- Membaca perintah dari Android
+- Mensimulasikan perubahan suhu AC & speed Fan setiap 5 detik
+- Mengupdate Firebase → realtime muncul di aplikasi
+
+## 🚀 Cara Menjalankan
+### Android
+```
+Open Android Studio → Run App
+```
+### IoT Worker
+```
+cd IoT-Worker
+npm start
+```
+
+## 🧠 Clean Architecture Flow
+```
+UI → ViewModel → Repository → FirebaseService → Firebase RealtimeDB
+```
+
+## 🛠 Planned Features
+- Edit Device Name (Popup Dialog)
+- Add New Devices
+- Add Room dynamically
+- Monitoring chart
