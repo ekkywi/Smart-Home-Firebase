@@ -46,7 +46,7 @@ app/
 │ ├── home/
 │ └── roomdetail/
 └── MainActivity.kt
----
+```
 
 ## 🔥 Firebase Setup
 
@@ -56,7 +56,8 @@ app/
 4. Enable **Realtime Database**
 5. Tambahkan contoh struktur database di bawah ini:
 
-```json
+```
+json
 {
   "rooms": {
     "living_room": {
